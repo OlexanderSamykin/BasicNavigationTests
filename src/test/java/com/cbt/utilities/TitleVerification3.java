@@ -1,11 +1,12 @@
 package com.cbt.utilities;
 
-//import static.utilities.Practice.*;
+import com.cbt.utilities.Practice.*;
+
+import static com.cbt.utilities.Practice.getDriver;
 
 public class TitleVerification3 {
 
     public static void main(String[] args) {
-
-       // System.out.println(os);
+        getDriver("os");
     }
 }
